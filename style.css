@@ -1,0 +1,158 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.links {
+  text-align: center;
+}
+.links li {
+  display: inline-block;
+  text-decoration: none;
+  color: black;
+  padding: 0.5rem;
+}
+.links a {
+  text-decoration: none;
+  color: black;
+  margin: 0.25rem;
+  font-weight: 600;
+  font-size: 1rem;
+  padding: 0.5rem;
+  margin: 1rem 0rem 1rem;
+}
+.links a:hover {
+  background-color: brown;
+}
+
+.backgroundimage img {
+  width: 100%;
+}
+.backgroundimage {
+  position: relative;
+}
+.backgroundimage h4 {
+  position: absolute;
+  top: 30%;
+  left: 15%;
+  color: wheat;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+main {
+  margin: 1rem;
+}
+
+.mainintroduction img {
+  width: 80%;
+  border-radius: 50%;
+  filter: grayscale(80%);
+}
+.introduction h2 {
+  color: red;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  margin: 1rem;
+  /* margin-left: rem; */
+}
+.education > div {
+  box-shadow: 5px 10px 30px rgba(0, 0, 0, 0.4),
+    -5px 10px 30px rgba(0, 0, 0, 0.4);
+  width: 80%;
+  margin: 0 auto;
+  margin: 2rem;
+}
+.education h2 {
+  color: rgb(155, 35, 53);
+  margin: 2rem 0rem 1rem;
+}
+.school,
+h3 .highschool,
+h3 .postsecondary,
+h3 {
+  color: rgb(155, 35, 53);
+  margin: 1rem;
+}
+.school,
+.highschool,
+.postsecondary,
+p {
+  margin: 1rem;
+  padding: 0.5rem;
+}
+.school p {
+  color: black;
+}
+.school,
+.highschool,
+.postsecondary {
+  border-radius: 5px;
+  margin: 1rem 0rem 1rem;
+}
+footer {
+  padding-bottom: 100px;
+  background-color: black;
+  text-align: center;
+}
+.footerlinks li {
+  display: inline-block;
+  text-decoration: none;
+  color: black;
+  padding: 0.5rem;
+  margin-top: 2rem;
+}
+.footerlinks a {
+  text-decoration: none;
+  color: white;
+  margin: 1rem;
+  margin-top: 2rem;
+  font-weight: 600;
+  font-size: 1rem;
+  padding: 0.5rem;
+  margin: 1rem 0rem 1rem;
+}
+.footerlinks a:hover {
+  background-color: brown;
+}
+.copywrite {
+  color: white;
+  font-size: 0.75rem;
+}
+
+.mainimage {
+  width: 200px;
+}
+
+.backgroundImage {
+  width: 100%;
+}
+
+@media (min-width: 600px) {
+  .links li {
+    font-size: 20px;
+    font-weight: bold;
+  }
+  .backgroundimage h4 {
+    font-size: 2rem;
+  }
+  .mainintroduction img {
+    width: 100%;
+    border-radius: 50%;
+    filter: grayscale(80%);
+  }
+  .introduction {
+    width: 98%;
+  }
+  .mainintroduction {
+    display: flex;
+    justify-content: space-around;
+    width: 70%;
+    margin: 0 auto;
+  }
+  .education {
+    display: flex;
+    justify-content: space-around;
+  }
+  .education > div {
+    width: 30%;
+    margin: 0 auto;
+  }
+}

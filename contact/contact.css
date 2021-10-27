@@ -1,0 +1,66 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.form {
+  position: relative;
+  top: 50%;
+  left: 50%;
+  width: 40%;
+  height: 500px;
+  padding: 20px;
+  transform: translate(-50%, 0%);
+}
+.form p {
+  margin: 1rem 0rem 1rem 0rem;
+  margin-right: 10rem;
+}
+.form input {
+  width: 100%;
+  margin: 0.4rem;
+  height: 2rem;
+}
+.form label {
+  display: none;
+}
+.form button {
+  color: white;
+  background-color: black;
+  width: fit-content;
+  padding: 0.5rem;
+}
+.form button:hover {
+  background-color: gainsboro;
+}
+.form {
+  border: 2px solid grey;
+}
+footer {
+  position: relative;
+  bottom: 0;
+}
+.icons {
+  margin: 0 auto;
+  margin-top: 2rem;
+  font-size: 3rem;
+}
+.icons a {
+  color: #000;
+}
+.icons i {
+  margin: 0.5rem;
+}
+
+@media (max-width: 1000px) {
+  .form {
+    width: 80%;
+  }
+}
+
+@media (max-width: 500px) {
+  .icons i {
+    font-size: 30px;
+  }
+}

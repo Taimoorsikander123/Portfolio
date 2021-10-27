@@ -1,0 +1,85 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.links {
+  text-align: center;
+}
+.links li {
+  display: inline-block;
+  text-decoration: none;
+  color: black;
+  padding: 0.5rem;
+}
+.links a {
+  text-decoration: none;
+  color: black;
+  margin: 0.25rem;
+  font-weight: 600;
+  font-size: 1rem;
+  padding: 0.5rem;
+  margin: 1rem 0rem 1rem;
+}
+.links a:hover {
+  background-color: brown;
+}
+main img {
+  width: 50%;
+  margin: 20px 0;
+}
+main {
+  margin: 2rem;
+  width: 70%;
+  margin: 0 auto !important;
+}
+main p {
+  font-size: 20px;
+  text-align: justify;
+}
+footer {
+  padding-bottom: 100px;
+  background-color: black;
+  text-align: center;
+}
+.footerlinks li {
+  display: inline-block;
+  text-decoration: none;
+  color: black;
+  padding: 0.5rem;
+  margin-top: 2rem;
+}
+.footerlinks a {
+  text-decoration: none;
+  color: white;
+  margin: 1rem;
+  margin-top: 2rem;
+  font-weight: 600;
+  font-size: 1rem;
+  padding: 0.5rem;
+  margin: 1rem 0rem 1rem;
+}
+.footerlinks a:hover {
+  background-color: brown;
+}
+.copywrite {
+  color: white;
+  font-size: 0.75rem;
+}
+
+@media only screen and (min-width: 650px) {
+  main img {
+    padding: 4%;
+    margin-left: 2%;
+    width: 46%;
+  }
+  main {
+    margin: 1rem;
+  }
+  .aboutme2 img {
+    margin-left: 25%;
+  }
+  .last img {
+    margin-left: 25%;
+  }
+}
